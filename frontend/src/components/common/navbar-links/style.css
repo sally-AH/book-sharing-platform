@@ -1,0 +1,22 @@
+:root {
+    --primaryBackground: #212222;
+    --secondaryBackground: #2f3030;
+    --primaryColor: #e0a80d;
+    --greyDark: #7d8792;
+    --headingColor: #2d2e2e;
+    --white: #fff;
+    --black: #000;
+    --sliver: #bac8d3;
+}
+
+li a {
+    color: var(--greyDark);
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 40px;
+}
+  
+li a:hover {
+    color: var(--primaryColor);
+}
