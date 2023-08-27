@@ -1,4 +1,5 @@
-import {Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
+import {FavoriteBorder, Public, PersonOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
+import MoodIcon from '@mui/icons-material/Mood'
 
 const home = [
   {
@@ -24,4 +25,25 @@ export const social = [
   },
 ]
 
+export const project = [
+  {
+    id: 1,
+    icon: <MoodIcon />,
+    num: "89",
+    title: "HAPPY USERS",
+  },
+  {
+    id: 2,
+    icon: <Public />,
+    num: "231",
+    title: "BOOKS SHARED",
+  },
+  {
+    id: 3,
+    icon: <FavoriteBorder />,
+    num: "108",
+    title: "SUGGESTIONS LIKED",
+  },
+]
 export default home
+

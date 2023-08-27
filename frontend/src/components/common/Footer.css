@@ -1,10 +1,25 @@
+:root {
+    --primaryBackground: #212222;
+    --secondaryBackground: #2f3030;
+    --primaryColor: #e0a80d;
+    --greyDark: #7d8792;
+    --headingColor: #2e2d2d;
+    --white: #fff;
+    --black: #000;
+    --sliver: #bac8d3;
+}
+
 footer {
     text-align: center;
     background-color: var(--primaryBackground);
     padding: 70px;
     margin-top: 50px;
-}
-footer i {
+  }
+  footer i {
     margin: 5px;
     color: var(--primaryColor);
-}
+  }
+
+  p{
+    color: var(--white);
+  }
