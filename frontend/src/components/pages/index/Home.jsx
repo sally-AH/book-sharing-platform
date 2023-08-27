@@ -30,8 +30,8 @@ const Home = () => {
 
 
   return (
-    <div>
-        <Header name1="Home" name2="Add Book" name3="Logout"/>
+    <>
+        <Header name1="Home" href1= "/index" name2="Add Book" href2="/add" name3="Logout"/>
         <div className="bookContainer">
         <div className='content grid3'>
         {books.list.map((book) => {
@@ -40,7 +40,7 @@ const Home = () => {
         </div>
 
         </div>
-    </div>
+    </>
   )
 }
 

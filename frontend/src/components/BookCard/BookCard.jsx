@@ -7,8 +7,8 @@ const BookCard = (book) => {
       <section className='books'>
         <div className="container">
             <div className="box">
-                {/* <img src={book.book.picture} alt="pic" /> */}
-                <img src="https://picsum.photos/200" alt="pic" />
+                <img src={book.book.picture} alt="pic" />
+                {/* <img src="https://picsum.photos/200" alt="pic" /> */}
                 <h3>Title: {book.book.name}</h3>
                 <h5>Author: {book.book.author}</h5>
                 <p>Review: {book.book.review}</p>
