@@ -5,7 +5,7 @@ import {Menu} from "@mui/icons-material"
 import './Header.css'
 
 
-const Header = () => {
+const Header = (props) => {
     const [responsive, setResponsive] = useState(false)
   return (
     <>
@@ -16,8 +16,9 @@ const Header = () => {
             </div>
             <div className={responsive? "hideMenu" : "nav"}>
                 <ul className={responsive? "ulFlexCol" : "ulFlexRow"}>
-                    <NavLink href="/" name="Home"/>
-                    <NavLink href="/" name="Login"/>
+                    <NavLink href={props.href1} name={props.name1}/>
+                    <NavLink href={props.href2} name={props.name2}/>
+                    <NavLink href={props.href3} name={props.name3}/>
                 </ul>
             </div>
             <button className='toggle' onClick={()=>setResponsive(!responsive)}>

@@ -1,10 +1,14 @@
 import React from 'react'
 import home from '../data/dd'
 import Typewriter from 'typewriter-effect'
+import Header from '../common/Header'
 import './style.css'
+
+
 const Hero = () => {
   return (
     <>
+      <Header name1="Home" name2="About" />
       <div className="image-overlay">
         <section className='hero'>
           {
