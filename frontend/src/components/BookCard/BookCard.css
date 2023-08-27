@@ -1,0 +1,11 @@
+.books .box {
+    background-color: var(--primaryBackground);
+    padding: 35px;
+}
+.books img {
+    width: 20px;
+    height: 20px;
+}
+.books h3 {
+    margin-top: 20px;
+}
